@@ -85,6 +85,7 @@ def handle_usdt_transactions(start_timestamp, accounts_to_watch):
         time.sleep(POLL_INTERVAL * 60)
 
 def main():
+    print('Job Started ...')
     timestamp = time.time() * 1000
     handle_usdt_transactions(timestamp, ACCOUNTS_TO_WATCH)
 

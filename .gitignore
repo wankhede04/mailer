@@ -1,3 +1,5 @@
 __pycache__
 .env
 1.py
+# Local Netlify folder
+.netlify
