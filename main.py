@@ -13,9 +13,10 @@ load_dotenv()
 SENDER_EMAIL = os.getenv("GMAIL_EMAIL")
 SENDER_PASSWORD = os.getenv("GMAIL_PASSWORD")  # gmail app password
 RECIPIENTS = [
-    "shivansh0301@gmail.com",
-    "shivansh0507@gmail.com",
+    "shivansh0507@audacelabs.com",
     "wankhede.tech@gmail.com",
+    'sachin@audacelabs.com',
+    'sujith@unore.io'
 ]
 
 ### CONTRACT CONFIG ###
@@ -23,8 +24,6 @@ CONTRACT = "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t"  # USDT CONTRACT ADDRESS
 
 ### ACCOUNTS TO WATCH ###
 ACCOUNTS_TO_WATCH = [
-    "TL6axv2v1VgPfuUMWTmp7j9X3pUweQEadf",
-    "TNAfStqVaTak2mH81fbnuHVKTfy7bbcqRF",
     "TJZDAAP4QMrtzsPw8R8mRq1feqBUYS6MdH",
     "TRNXU4XDvBhBgrUsVVQLoj9E3f3vPxuMZZ",
     "TA586MH4FcQtN349SCdp5J932TcRedw1Wf",
