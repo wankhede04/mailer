@@ -76,20 +76,22 @@ def create_send_email(tx):
     amount = round(float(tx["value"]) * pow(10, -tx["token_info"]["decimals"]), 6)
     action = "Deposit" if is_deposit else "Withdrawal"
     other_account = tx["from"] if is_deposit else tx["to"]
+    from_account=tx["from"] 
+    to_account=tx["to"] 
     subject = (
          f'DEMO - [{action}] confirmation of USDT on {other_account}'
     )
     link = f"https://tronscan.org/#/transaction/{id}"
     other_key = "From" if is_deposit else "To"
     body = get_html_body(
-        ", ".join(ACCOUNTS_TO_WATCH),
+        from_account,
         id,
         action,
         amount,
         datetime,
         link,
         other_key,
-        other_account,
+        to_account,
     )
     send_email(subject, body)
 
