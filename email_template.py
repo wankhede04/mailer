@@ -1,5 +1,5 @@
 def get_html_body(account, id, action, amount, date, link, other_key, other_account):
-  return f'''
+    return f"""
 <table border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width:100%;" class="yiv6963182806mcnTextBlock">
     <tbody class="yiv6963182806mcnTextBlockOuter">
        <tr>
@@ -30,4 +30,4 @@ def get_html_body(account, id, action, amount, date, link, other_key, other_acco
        </tr>
     </tbody>
  </table>
-'''
+"""
