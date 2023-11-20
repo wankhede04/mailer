@@ -12,7 +12,7 @@ load_dotenv()
 ### EMAIL CONFIG ###
 SENDER_EMAIL = os.getenv('GMAIL_EMAIL')
 SENDER_PASSWORD =  os.getenv('GMAIL_PASSWORD') # gmail app password
-RECIPIENTS = ['shivansh0301@gmail.com', 'shivansh0507@gmail.com']
+RECIPIENTS = ['shivansh0301@gmail.com', 'shivansh0507@gmail.com','wankhede.tech@gmail.com']
 
 ### CONTRACT CONFIG ###
 CONTRACT = "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t"  # USDT CONTRACT ADDRESS
